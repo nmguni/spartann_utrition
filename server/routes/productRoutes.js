@@ -11,6 +11,7 @@ router.get(
   "/",
   asyncHandler(async (req, res) => {
     const products = await Product.find({});
+
     res.json(products);
   })
 );
@@ -19,6 +20,7 @@ router.get(
 //  @route     GET / api/products
 //  @access    Public
 // Single product using id
+
 router.get(
   "/:id",
   asyncHandler(async (req, res) => {
