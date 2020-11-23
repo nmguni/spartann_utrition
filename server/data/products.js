@@ -1,13 +1,13 @@
 const products = [
   {
-    name: "Airpods Wireless Bluetooth Headphones",
-    image: "/images/airpods.jpg",
+    name: "Digital Prtners",
+    image: "/images/digital.jpg",
     description:
-      "Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working",
+      "sectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ve",
     brand: "Apple",
-    category: "Electronics",
-    price: 89.99,
-    countInStock: 0,
+    category: "E-commers",
+    price: 59.99,
+    countInStock: 1,
     rating: 4.5,
     numReviews: 12,
   },
